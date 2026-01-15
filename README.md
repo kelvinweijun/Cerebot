@@ -56,6 +56,7 @@ In Render.com:
 3. Render will auto-detect it's a Python app
 4. Set your CEREBRAS_API_KEY and DISCORD_BOT_TOKEN in the environment variable field
 5. Set the Start Command field to `python bot.py`
+6. Click deploy
 
 #### Prepare Your Repository
 
