@@ -1,10 +1,10 @@
-Files Overview
+**Files Overview**
 
 bot.py - Main Discord bot with Cerebras AI integration
 requirements.txt - Python dependencies
 render.yaml - Render.com configuration
 
-Features
+**Features**
 
 !ask <question> - Ask the AI anything
 !reset - Clear your conversation history
@@ -12,11 +12,11 @@ Features
 Maintains conversation context per user
 Handles long responses (splits if over 2000 characters)
 
-Setup Instructions
+**Setup Instructions**
 1. Get Your API Keys
 Discord Bot Token:
 
-Go to Discord Developer Portal
+**Go to Discord Developer Portal**
 Create a new application
 Go to "Bot" section and create a bot
 Copy the token
