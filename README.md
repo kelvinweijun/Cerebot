@@ -1,58 +1,55 @@
-*Files Overview*
+# 🤖 Discord AI Bot (Cerebras-powered)
 
-bot.py - Main Discord bot with Cerebras AI integration
-requirements.txt - Python dependencies
-render.yaml - Render.com configuration
+A Discord bot integrated with **Cerebras AI** for ultra-fast inference.  
+Deployed on **Render.com**, with per-user conversation memory and long-response handling.
 
-**Features**
+---
 
-!ask <question> - Ask the AI anything
-!reset - Clear your conversation history
-!ping - Check bot status
-Maintains conversation context per user
-Handles long responses (splits if over 2000 characters)
+## 📁 Files Overview
 
-**Setup Instructions**
-1. Get Your API Keys
-Discord Bot Token:
+- **bot.py**  
+  Main Discord bot with Cerebras AI integration
 
-**Go to Discord Developer Portal**
-Create a new application
-Go to "Bot" section and create a bot
-Copy the token
-Enable "Message Content Intent" under Privileged Gateway Intents
+- **requirements.txt**  
+  Python dependencies
 
-Cerebras API Key:
+- **render.yaml**  
+  Render.com deployment configuration
 
-You already have this from your code
+---
 
-2. Deploy to Render.com
+## ✨ Features
 
-Create a GitHub repository with these files:
+- `!ask <question>` — Ask the AI anything  
+- `!reset` — Clear your conversation history  
+- `!ping` — Check bot status  
+- Maintains **conversation context per user**  
+- Automatically **splits long responses** (handles Discord’s 2000-character limit)
 
-bot.py
-requirements.txt
-render.yaml
+---
 
+## 🚀 Setup Instructions
 
-Go to Render.com and sign up/login
-Click "New +" → "Blueprint"
-Connect your GitHub repository
-Add environment variables:
+### 1️⃣ Get Your API Keys
 
-DISCORD_BOT_TOKEN = your Discord bot token
-CEREBRAS_API_KEY = your Cerebras API key
+#### Discord Bot Token
 
+1. Go to the **Discord Developer Portal**
+2. Create a **New Application**
+3. Navigate to the **Bot** section
+4. Click **Create Bot**
+5. Copy the **Bot Token**
+6. Enable **Message Content Intent** under **Privileged Gateway Intents**
 
-Click "Apply" to deploy
+#### Cerebras API Key
 
-3. Invite Bot to Your Server
-Create an invite URL with this format:
-https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=2048&scope=bot
-Replace YOUR_CLIENT_ID with your bot's Application ID from the Discord Developer Portal.
-4. Test It!
-In your Discord server:
+You already have this from your existing setup.
 
-!ask Why is fast inference important?
-!ping
-!reset
+---
+
+### 2️⃣ Deploy to Render.com
+
+#### Prepare Your Repository
+
+Create a GitHub repository containing:
+
