@@ -30,6 +30,8 @@ Deployed on **Render.com**, with per-user conversation memory and long-response 
 
 ## Setup Instructions
 
+Before proceeding with the subsequent steps, clone this repository into your own GitHub account.
+
 ### Get Your API Keys
 
 #### Discord Bot Token
@@ -52,13 +54,16 @@ You already have this from your existing setup.
 In Render.com:
 
 1. Create a new Web Service
-2. Connect your GitHub repository
+2. Connect it to the cloned GitHub repository
 3. Render will auto-detect it's a Python app
 4. Set your CEREBRAS_API_KEY and DISCORD_BOT_TOKEN in the environment variable field
 5. Set the Start Command field to `python bot.py`
 6. Click deploy
 
-#### Prepare Your Repository
+### Keeping the Bot Active with UptimeRobot
 
-Create a GitHub repository containing:
+To keep the bot awake 24/7, you may use UptimeRobot to monitor and consistently ping your Render web service every interval.
+
+1. Go to the bot's web service you deployed on Render, then copy the link of the web service
+2. Go to https://www.uptimerobot.com and create a new monitor, enter the url, and start it
 
