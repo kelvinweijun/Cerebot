@@ -1,7 +1,7 @@
 # Cerebot
 
 A Discord bot integrated with **Cerebras AI** for ultra-fast inference.  
-Deployed on **Render.com**, with per-user conversation memory and long-response handling.
+Deployed on **Render.com**, with per-user conversation memory and long-response handling. Note that this bot by default will use llama 3.3 70B model. You may change the model in bot.py if you want, but the model must be available in the list offered by Cerebras.
 
 ---
 
@@ -45,7 +45,7 @@ Before proceeding with the subsequent steps, clone this repository into your own
 
 #### Cerebras API Key
 
-You already have this from your existing setup.
+Go to https://cloud.cerebras.ai and create an account, then obtain the API key for it. This will be your `CEREBRAS_API_KEY`.
 
 ---
 
