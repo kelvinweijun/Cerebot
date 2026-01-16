@@ -51,7 +51,7 @@ Go to https://cloud.cerebras.ai and create an account, then obtain the API key f
 
 ### Deploy to Render.com
 
-In Render.com:
+Go to https://www.render.com and do the following steps:
 
 1. Create a new Web Service
 2. Connect it to the cloned GitHub repository
